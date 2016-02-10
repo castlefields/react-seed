@@ -1,0 +1,120 @@
+#pf-navigation{
+	position: fixed;
+	width: 90px;
+	height: 100%;
+	top: 0;
+	overflow: visible;
+}
+
+.pf-navigation-open{
+	left:0;
+}
+
+.pf-navigation-closed{
+	left:-90px;
+}
+
+.pf-nav-menu-btn.pf-nav-close-icon {
+    background-image: url("https://d18mhp9r2it6yv.cloudfront.net/images/NavBarIcons/closeMenu-ffffff.png");
+    background-position: 4px 4px;
+    background-repeat: no-repeat;
+    background-color: inherit;
+}
+
+.pf-nav-menu-btn.pf-nav-open-icon {
+    background-image: url("https://d18mhp9r2it6yv.cloudfront.net/images/NavBarIcons/openMenu-ffffff.png");
+    background-position: 4px 4px;
+    background-repeat: no-repeat;
+    background-color: inherit;
+}
+
+.pf-nav-menu-btn {
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 30px;
+    height: 24px;
+    -webkit-box-shadow: 1px 1px 1px #999;
+    box-shadow: 1px 1px 1px #999;
+}
+
+#pf-navigation a {
+        display: block;
+        color: #b3b3b1;
+        padding: 15px 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        border-top: 1px solid rgba(255, 255, 255, .1);
+        text-decoration: none;
+    }
+
+    #pf-nav-content.pf-nav-border {
+    -webkit-box-shadow: 1px 0 1px 0 #999;
+    -moz-box-shadow: 1px 0 1px 0 #999;
+    box-shadow: 1px 0 1px 0 #999;
+}
+#pf-nav-content {
+    padding-top: 24px;
+    height: 100%; 
+    overflow: hidden;
+    width: 90px;
+}
+
+    #pf-nav-content ul {
+	height: auto !important;
+	width:100%;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+
+#pf-nav-content ul li {
+	display:block;
+	height:100%;
+	padding: 0 5px 8px; /* changed --RP */
+    overflow: hidden;
+	position:relative;
+	list-style-type:none;
+}
+
+#pf-nav-content ul li a {
+    display:block;
+	height:100%;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+	text-decoration:none;
+	border:none !important;
+	border-collapse: collapse;
+    cursor: pointer;
+}
+
+#pf-nav-content ul li a span.pf-nav-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 8px auto 4px;
+    background-repeat: no-repeat;
+}
+
+#pf-nav-content ul li a span.pf-nav-name {
+    display: block;
+    line-height: 1.1em;
+    padding: 0 0 0 0;
+    margin: 6px 0 0 0;
+    vertical-align: middle;
+    text-align: center;
+    white-space: pre; /* CSS 2.0 */
+    white-space: pre-wrap; /* CSS 2.1 */
+    white-space: pre-line; /* CSS 3.0 */
+    white-space: -pre-wrap; /* Opera 4-6 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: -moz-pre-wrap; /* Mozilla */
+    white-space: -hp-pre-wrap; /* HP Printers */
+    word-wrap: break-word; /* IE 5+ */
+    border: none !important;
+    border-collapse: collapse;
+    font-size: 11px;
+    font-weight: normal;
+    font-family: Helvetica, arial, sans-serif;
+}
